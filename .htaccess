@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^amsterdam-band.com
+RewriteRule (.*) http://www.amsterdam-band.com/$1 [R=301,L]
+
+RewriteCond $1 !^(index\.php|textlen\.php|images|robots\.txt|theme|userfiles|ckeditor)
+RewriteRule ^(.*)$ /index.php?$1 [L,QSA]

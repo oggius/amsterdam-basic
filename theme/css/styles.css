@@ -1,0 +1,169 @@
+/** common **/
+*{margin: 0;}
+img {border: 0}
+body{background:#000; font: 14px Arial, Tahoma, Helvetica, sans-serif; color: #ccb6ac; line-height: 19px}
+a {color: #ccb6ac}
+ul {padding: 0; margin-bottom: 20px}
+table, tr,td{border:0; padding:0; margin:0}
+#site {width: 1050px;margin:0 auto}
+#top {background: url(/theme/images/header.jpg) no-repeat; width: 100%; height: 113px}
+#leftcol {float: left; background: url(/theme/images/leftcol.jpg) no-repeat; width: 131px; min-height: 697px}
+#centercol_twocol {float: left; background: url(/theme/images/bg_content.jpg) 0 23px; width: 788px; min-height: 720px}
+#centercol_twocol .content_list {min-height: 180px;}
+#centercol_onecol {float: left; width: 788px; min-height: 697px}
+#rightcol {float: left; background: url(/theme/images/rightcol.jpg) no-repeat; width: 131px; min-height: 697px}
+#bottom {float: left; background: url(/theme/images/footer.jpg) no-repeat; width: 100%; min-height: 86px}
+#bottom_dark {float: left; background: url(/theme/images/footer_dark.jpg) no-repeat; width: 100%; min-height: 86px}
+h1 {color: #d96400; font-size: 20px; font-weight: normal; margin-bottom: 10px; display: block}
+h2 {font-size: 16px; font-weight: bold; margin-bottom: 10px; display: block; margin-top: 20px}
+.header {float: left; width: 100%; height: 165px;position: relative}
+.logo {float: right; margin: 10px 17px 0 0} 
+.order {position: absolute; left: 465px; top: 23px; width: 200px; text-align: center}
+.order a{ text-decoration: none;color: #d96400;text-transform: uppercase;font-size: 20px; }
+.nav ul {position: relative; list-style: none}
+.nav ul li {font-size: 15px}
+.nav ul li a {text-decoration: none; color: #ccb6ac}
+.nav ul li.nav_gallery {position: absolute; top: 56px; left: 70px; font-size: 16px; font-weight: bold} 
+.nav ul li.nav_about {position: absolute;top: 28px; left: 156px} 
+.nav ul li.nav_about a{font-size: 17px; color: #ccb6ac} 
+.nav ul li.nav_services {position: absolute; top: 59px; left: 200px;} 
+.nav ul li.nav_services a{font-size: 16px; color: #ccb6ac; font-weight: bold} 
+.nav ul li.nav_contacts{position: absolute; top: 25px; left: 50px;} 
+.nav ul li.nav_contacts a{font-size: 17px} 
+.nav ul li.nav_schedule{position: absolute; top: 94px; left: 125px} 
+.nav ul li.nav_schedule a{font-size: 16px; color: #ccb6ac} 
+.nav ul li.nav_reports{position: absolute; top: 90px; left: 225px} 
+.nav ul li.nav_reports a{font-size: 15px; color: #ccb6ac; font-weight: bold;} 
+.nav ul li.nav_promo {position: absolute; top: 128px; left: 155px} 
+.nav ul li.nav_news {position: absolute; top: 120px; left: 55px;} 
+.nav ul li.nav_news a{font-size: 19px; color: #ccb6ac} 
+.nav ul li.nav_main {position: absolute; top: 0px; left: 120px;} 
+.nav ul li.nav_main a{font-size: 20px; color: #ccb6ac} 
+.nav ul li.nav_playlist {position: absolute; top: 86px; left: 30px;} 
+.nav ul li.nav_playlist a{font-size: 16px;} 
+.nav ul li.nav_guest {position: absolute; top: 28px; left: 230px;} 
+.nav ul li.nav_guest a{font-size: 16px; color: #ccb6ac;} 
+.twitter-share-button {width: 108px !important}
+#___plusone_0 {width: 70px !important}
+.fb_edge_widget_with_comment > span {width: 85px !important}
+.fb_iframe_widget {vertical-align: top !important} 
+#centercol_twocol .content_wrapper {margin: 20px 30px 0 470px; float: left;} 
+#centercol_onecol .content_wrapper {margin: 20px 30px; float: left; width: 697px} 
+.content {float: left; padding: 20px 0 0 0px; margin-left: 30px}
+strong {color: #d8c8c1}
+.content_heading{float: left; width: 100%; margin-bottom: 20px}
+.content_heading div {float: right}
+.content_heading h1 {display: block; float: left}
+.headLink {text-decoration: none}
+.headLink:hover {text-decoration: underline}
+.link-no-underline {text-decoration: none}
+.link-no-underline:hover {text-decoration: underline}
+.more {margin-top: 10px; text-align: center;}
+/** main */
+.mainBlock {float: left; width: 100%}
+.mainimg {float: left; margin: 0 30px}
+.content_wrapper_main {width: 100%; margin: 20px 0; float: left}
+.main_content_top {float:left;}
+.main_top_right {float:left; width: 330px} 
+.main_content_bottom {margin: 0 10px 30px; float: left}
+.main_bottom_left {width: 400px; float: left; margin-right: 20px}
+.main_bottom_right{width: 300px; float: left}
+.main_bottom_2col_wrapper {float: left}
+
+/** contacts **/
+.contactsTable {margin-top: 10px}
+.whiteOutline {font-size: 16px; color: #fff; margin: 13px 0}
+td .whiteOutline {font-size: 16px; color: #fff; margin: 5px 0}
+.whiteOutline a{font-size: 16px; color: #fff}
+.socLinks {margin-left: 50px;}
+p.text {font-size: 13px; margin-top: 5px; line-height: 17px}
+div.text p {font-size: 13px; margin-top: 5px; line-height: 17px}
+ul.text {padding-left: 20px;}
+ul.text li{margin-top: 8px}
+.underline {text-decoration: underline}
+.contacts img {margin: 10px 0 0 20px; float: left;}
+img.contactsPic {margin: 25px 0 0 90px}
+.single_col_content{margin-top:30px;/* position: relative*/}
+.single_col_content p {width: 100%}
+.back {width: 45px;height: 45px;	margin: 20px 0 20px 330px;text-align: center;line-height: 38px;color: #999;background: url(/theme/images/return_passive.png) no-repeat;cursor: pointer;display: none;}
+.video {margin: 20px auto; text-align: center}
+.bold {font-weight: bold}
+.center {text-align: center;}
+.heading {color: #d96400; margin-top: 10px; margin-bottom: 10px}
+.colored {color: #d96400}
+
+/** concerts */
+.concert {margin-bottom: 20px; float: left; width: 100%}
+.concert img {float: left; margin-right: 10px; width: 100px}
+.concertText {margin-left: 120px}
+
+/** news */
+.newsItem {float: left; margin-bottom: 15px}
+.newsItem .newsMore {display: block; float: right; margin-right: 30px; font-size: 13px; color:#d96400}
+.newsItem .newsMore:hover {text-decoration: none}
+.newsItem .newsMoreInline {display: inline-block}
+.newsItem p{font-size: 13px; margin-top: 5px; line-height: 17px; float: left}
+.newsItem a{font-size: 13px; margin-top: 5px; line-height: 17px}
+.newsBig .newsDate {margin-right: 30px; font-size: 13px; color:#d96400; float: right}
+.newsBig p {margin-top: 12px; line-height: 20px}
+.newsBackWrapper {width: 100%; text-align: center}
+.newsBack {margin: 60px auto;}
+.newsBack a{color:#d96400;}
+.concert_description {float: left; margin-bottom: 10px}
+
+/** playlist */
+table.playlist {float: left}
+table.playlist tr td{width: 50%; padding: 0 40px 0 0}
+table.playlist tr td p{margin-bottom: 5px}
+table.playlist tr td ul{list-style: none}
+table.playlist tr td ul li{margin-bottom: 3px}
+
+/** guestbook */
+.gbfield{margin-top: 10px; font-size: 12px}
+.formblock {margin: 20px 0 40px 0}
+.formblock input {width: 250px}
+.formblock textarea{width: 350px; height: 170px}
+.guestrecord {margin: 0 0 20px; background: #121212; padding: 3px 5px; border-radius: 5px; border: 1px solid #2d2d2d;}
+.guestrecord .timestamp {font-size: 11px; font-style: italic}
+.sendguestmessage {display: block; padding: 5px; margin: 10px 0; border-radius: 5px; width: 70px}
+.guestname {background: #1f1f1f; border-radius: 5px; padding: 0 5px}
+.loadMore {display: block; background: #121212; border-radius: 5px; padding: 5px; text-align: center; text-decoration: none; font-size: 12px; margin-bottom: 15px;}
+.loadMore:hover {background: #1f1f1f;}
+.guestmessage {padding: 5px 5px;}
+ 
+/** gallery */
+.gallery {position: relative}
+.gallery #left-but {display: block; width: 100px; height: 200px; background: url('/theme/images/arrows.png') -107px 85px no-repeat; position: absolute; top: 80px; left: -30px;}
+.gallery #left-but:hover {background-position: 40px 85px}
+.gallery #right-but {display: block; width: 100px; height: 200px; background: url('/theme/images/arrows.png') -490px 85px no-repeat; position: absolute; top: 80px; right: -30px}
+.gallery #right-but:hover {background-position: -299px 85px}
+.gallery #alt-text {position: absolute; top: 20px; left: 0px; font-size: 16px; font-weight: bold;}
+.gallery-back {text-align: center;}
+.gallery-back .link-back {display: block; background: url('/theme/images/return_passive.png') no-repeat; height: 45px; width: 250px; margin: 20px  auto 0;padding-top: 10px; text-decoration: none}
+.gallery-back .link-back:hover {background: url('/theme/images/return_active.png') no-repeat; text-decoration: underline}
+.photoGallery{height:500px; margin-top: 20px}
+
+/** report */
+.report_content {margin-bottom: 40px;}
+
+/** admin */
+.adminmenu {list-style: none; margin-left: 20px}
+.adminmenu li{float: left; margin-left: 14px; font-size: 17px}
+.adminmenu li a{text-decoration: none}
+.adminmenu li a:hover{color: #d96400}
+.admintitle {float: left; margin: 100px 0 0 100px; font-size: 30px} 
+.admin-home-list {margin: 15px 0 0 15px} 
+.admin-home-list li {margin-top: 5px; font-size: 16px}
+
+.admincontent input[type=text]{width: 300px}
+.admincontent input[type=submit], .admincontent input[type=button] {margin-top: 20px; width: 100px; height: 30px; cursor: pointer}
+.admincontent textarea, .admincontent select{width: 300px}
+.admincontent .formlabel {margin-top: 10px; font-size: 12px; font-style: italic}
+.admincontent .link-remove {color: #f00}
+.admincontent .link-block {color: orange}
+.admincontent .link-unblock {color: white}
+.admincontent .link-approve {color: green}
+.admincontent .link-update{color: green; display: none}
+.admincontent .itemAdmin {margin: 0 0 20px; background: #121212; padding: 3px 5px; border-radius: 5px; border: 1px solid #2d2d2d;}
+.admincontent .albumImg {margin: 20px}
+.admincontent .addPhoto {display: none}

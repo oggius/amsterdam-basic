@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://www.amsterdam-band.com/</loc>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/about.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/services.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/contacts.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/schedule.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/guest.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/gallery.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/reports.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/promo.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/news.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/playlist.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/order.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/news/2.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/news/1.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://www.amsterdam-band.com/rider.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+</urlset>
